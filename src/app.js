@@ -1,8 +1,10 @@
 import React from "react";
-import "./App.css"
+import "./App.css";
+
+import TechList from "./components/TechList";
 
 function App() {
-  return <h1>Hello InfoChagas</h1>;
+  return  <TechList />
 }
 
 export default App;
